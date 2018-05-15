@@ -1,0 +1,18 @@
+<div class="what-we-clean">
+  <p class="what-we-clean__title title">{{'WHAT_WE_CLEAN.TITLE' | translate}}</p>
+
+  <div class="what-we-clean__options">
+    <div class="what-we-clean__options__option"
+         *ngFor="let option of options">
+      <span class="what-we-clean__options__option__text what-we-clean__options__option__text--top">
+        {{option.top | translate}}
+      </span>
+
+      <span class="what-we-clean__options__option__text what-we-clean__options__option__text--bottom">
+        {{option.bottom | translate}}
+      </span>
+
+      <img class="what-we-clean__options__option__img" [src]="option.img">
+    </div>
+  </div>
+</div>

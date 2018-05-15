@@ -1,0 +1,25 @@
+<div class="header">
+
+  <div class="header__title">
+    {{'HEADER.TITLE' | translate}}
+  </div>
+
+  <div class="header__nav"
+       [ngClass]="{'mobile': showMobileNav}"
+       *ngIf="canShowFullNav || showMobileNav">
+    <span class="header__nav__item"
+          [ngClass]="{'active': navItem.active}"
+          (click)="changeActiveNav(navItem)"
+          *ngFor="let navItem of navItems">
+      <span class="header__nav__item__text">
+        {{navItem.value | translate}}
+      </span>
+    </span>
+  </div>
+
+  <div class="header__mobile-nav" *ngIf="!canShowFullNav">
+    <i class="fa fa-bars" *ngIf="!showMobileNav" (click)="openMenu()"></i>
+    <i class="fa fa-close" *ngIf="showMobileNav" (click)="closeMenu()"></i>
+  </div>
+
+</div>

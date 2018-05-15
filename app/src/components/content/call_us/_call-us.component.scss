@@ -1,0 +1,23 @@
+call-us {
+
+  .call-us {
+
+    text-align: center;
+    height: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $COLOR-WHITE;
+    color: $COLOR-PRIMARY;
+
+    &__text {
+      letter-spacing: 1.3px;
+      font-size: 2rem;
+
+    }
+
+  }
+
+}

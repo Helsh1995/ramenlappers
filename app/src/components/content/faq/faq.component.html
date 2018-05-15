@@ -1,0 +1,39 @@
+<div class="faq">
+
+  <div class="faq__main">
+
+    <p class="faq__main__title title">
+      {{'FAQ.MAIN.TITLE' | translate}}
+    </p>
+
+    <p class="faq__main__sub">
+      {{'FAQ.MAIN.SUB' | translate}}
+    </p>
+
+
+  </div>
+
+  <div class="faq__questions">
+
+    <div class="faq__item"
+         (click)="toggleQuestion(item)"
+         *ngFor="let item of questions">
+
+      <p class="faq__question">
+        {{item.question | translate}}
+        <span class="faq__question__toggle">
+          <i class="fa fa-arrow-down" *ngIf="!item.open"></i>
+          <i class="fa fa-arrow-down" *ngIf="item.open"></i>
+        </span>
+      </p>
+
+      <p class="faq__answer"
+         [innerHTML]="item.answer | translate"
+         *ngIf="item.open">
+      </p>
+
+    </div>
+
+  </div>
+
+</div>

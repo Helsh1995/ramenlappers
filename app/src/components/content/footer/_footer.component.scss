@@ -1,0 +1,69 @@
+footer {
+
+  .footer {
+
+    background-color: $COLOR-PRIMARY;
+    color: $COLOR-WHITE;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+      flex: 1;
+      margin: 2rem;
+      min-width: 250px;
+    }
+
+    &__business {
+
+    }
+
+    &__settling {
+      text-align: center;
+    }
+
+    &__opening-hours {
+    }
+
+    &__header {
+      font-weight: bold;
+      padding-bottom: 2rem;
+
+      &--small {
+        font-size: 1.5rem;
+      }
+
+      &--big {
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+
+    }
+
+    &__text {
+      line-height: 1.5;
+    }
+
+    &__divider {
+      width: 3rem;
+      border-bottom: solid thin;
+      margin: 2rem auto;
+    }
+
+    @media only screen and (max-width: 950px) {
+
+      > * {
+        min-width: 80%;
+      }
+
+      &__settling {
+        text-align: left;
+      }
+
+      &__divider {
+        margin: 2rem 0;
+      }
+    }
+  }
+
+}

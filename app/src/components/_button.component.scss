@@ -1,0 +1,23 @@
+.btn {
+
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba($COLOR-BLACK, 0.5);
+  padding: 1rem 3rem;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+
+  &--primary {
+    background-color: $COLOR-SECONDARY;
+    color: $COLOR-PRIMARY;
+
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  &:active {
+    transform: translateY(0.1rem);
+    box-shadow: 0 .5rem 1rem rgba($COLOR-BLACK, .2);
+  }
+
+}

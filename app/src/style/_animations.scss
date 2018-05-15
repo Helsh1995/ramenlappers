@@ -1,0 +1,25 @@
+@keyframes show-delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin move-to-top($from, $to, $seconds) {
+
+  -webkit-backface-visibility: hidden;
+
+  @keyframes move-to-top-keyframe-#{$from}-#{$to} {
+    0% {
+      top: $from;
+    }
+    100% {
+      top: $to;
+    }
+  }
+
+  animation: move-to-top-keyframe-#{$from}-#{$to} $seconds forwards;
+
+}

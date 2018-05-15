@@ -1,0 +1,13 @@
+<div class="ratings">
+  <div class="ratings__all-ratings">
+
+    <swiper [config]="config">
+      <div class="ratings__all-ratings__rating" *ngFor="let rating of ratings">
+        <p class="ratings__all-ratings__rating__name title">{{rating.name}}</p>
+        <p class="ratings__all-ratings__rating__text">{{rating.text}}</p>
+      </div>
+    </swiper>
+
+  </div>
+
+</div>

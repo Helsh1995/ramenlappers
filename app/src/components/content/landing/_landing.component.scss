@@ -1,0 +1,84 @@
+landing {
+  .landing {
+    position: relative;
+
+    height: 100%;
+
+    background-color: $COLOR-PRIMARY;
+    color: $COLOR-WHITE;
+
+    text-align: center;
+
+    &::after {
+      content: '';
+      background-image: url("assets/img/landing_background.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: 1;
+
+      animation: show-delay 2s;
+
+      @media only screen and (min-width: 1000px) {
+        background-size: contain;
+      }
+
+    }
+
+    &__primary {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      position: absolute;
+      width: 100%;
+
+      top: -110vh;
+
+      @include move-to-top(110vh, 10vh, 2s);
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1.5rem;
+      }
+
+    }
+
+    &__secondary {
+
+      font-size: 1.5rem;
+
+      position: absolute;
+      width: 100%;
+
+      top: -110vh;
+      @include move-to-top(110vh, 35vh, 3s);
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1rem;
+      }
+
+      &__text {
+        display: block;
+        padding: 0.5rem 1rem;
+      }
+
+    }
+
+    &__cta {
+      position: absolute;
+      top: 65vh;
+      width: 100%;
+
+      animation: show-delay 5s;
+    }
+
+    > * {
+      z-index: 10;
+    }
+  }
+}

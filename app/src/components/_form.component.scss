@@ -1,0 +1,47 @@
+.form {
+
+  width: 100%;
+  height: auto;
+
+  padding: 1rem;
+
+  &__item {
+    display: inline-block;
+    margin: 1rem;
+    padding-top: 2rem;
+
+    width: 100%;
+
+    position: relative;
+
+    color: $COLOR-PRIMARY;
+
+    &--label {
+      position: absolute;
+      top: 0;
+      transition: all .7s;
+    }
+
+    &--input {
+      width: 90%;
+      color: $COLOR-PRIMARY;
+
+      &::-webkit-input-placeholder {
+        color: $COLOR-PRIMARY;
+      }
+    }
+
+    &--input:placeholder-shown + &--label {
+      transform: translateY(1rem);
+      visibility: hidden;
+      opacity: 0;
+    }
+
+  }
+
+  &__submit {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+}

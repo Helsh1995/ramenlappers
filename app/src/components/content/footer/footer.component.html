@@ -1,0 +1,44 @@
+<div class="footer">
+
+  <div class="footer__business">
+    <p class="footer__header footer__header--big">
+      {{'FOOTER.BUSINESS.HEADER' | translate}}
+    </p>
+
+    <p class="footer__text">
+      {{'FOOTER.BUSINESS.TEXT' | translate}}
+    </p>
+
+  </div>
+
+  <div class="footer__settling">
+    <p class="footer__header footer__header--small">
+      {{'FOOTER.SETTLING.HEADER' | translate}}
+    </p>
+
+    <p class="footer__text"
+       [innerHTML]="'FOOTER.SETTLING.ADDRESS' | translate">
+    </p>
+
+    <div class="footer__divider"></div>
+
+    <p class="footer__text">
+      {{'FOOTER.SETTLING.PHONE' | translate}}
+    </p>
+
+    <p class="footer__text">
+      {{'FOOTER.SETTLING.MAIL' | translate}}
+    </p>
+  </div>
+
+  <div class="footer__opening-hours">
+    <p class="footer__header footer__header--small">
+      {{'FOOTER.OPENING_HOURS.HEADER' | translate}}
+    </p>
+
+    <p class="footer__text"
+       [innerHTML]="'FOOTER.OPENING_HOURS.HOURS' | translate">
+    </p>
+  </div>
+
+</div>

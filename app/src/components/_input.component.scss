@@ -1,0 +1,13 @@
+input, textarea {
+  border: none;
+  border-bottom: solid thin $COLOR-PRIMARY;
+  padding: 0 .5rem .5rem 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+  resize: none;
+}

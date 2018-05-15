@@ -1,0 +1,102 @@
+<div class="quotation">
+
+  <p class="quotation__title title">{{'QUOTATION.TITLE' | translate}}</p>
+
+  <div class="quotation__container">
+
+    <div class="quotation__container__map" #map>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.5910438773217!2d4.032723615759338!3d50.80168716987498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3baed7448ec01%3A0x3ed3948441a06f77!2sKerkveld%2C+9400+Ninove!5e0!3m2!1sen!2sbe!4v1525979067700"
+        width="{{mapContainerSize?.width}}" height="{{mapContainerSize?.height}}" frameborder="0" style="border:0"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="quotation__container__form form">
+
+      <!--NAME-->
+      <div class="form__item">
+
+        <input id="quotation__name"
+               type="text"
+               class="form__item--input"
+               [placeholder]="'QUOTATION.FORM.NAME' | translate"
+               [(ngModel)]="name">
+
+        <label for="quotation__name"
+               class="form__item--label">
+          {{'QUOTATION.FORM.NAME' | translate}}
+        </label>
+      </div>
+
+      <!--MAIL-->
+      <div class="form__item">
+
+        <input id="quotation__mail"
+               type="email"
+               class="form__item--input"
+               [placeholder]="'QUOTATION.FORM.MAIL' | translate"
+               [(ngModel)]="mail">
+
+        <label for="quotation__mail"
+               class="form__item--label">
+          {{'QUOTATION.FORM.MAIL' | translate}}
+        </label>
+      </div>
+
+      <!--PHONE-->
+      <div class="form__item">
+
+        <input id="quotation__phone"
+               type="number"
+               class="form__item--input"
+               [placeholder]="'QUOTATION.FORM.PHONE' | translate"
+               [(ngModel)]="phone">
+
+        <label for="quotation__phone"
+               class="form__item--label">
+          {{'QUOTATION.FORM.PHONE' | translate}}
+        </label>
+      </div>
+
+      <!--ADDRESS-->
+      <div class="form__item">
+
+        <input id="quotation__address"
+               type="text"
+               class="form__item--input"
+               [placeholder]="'QUOTATION.FORM.ADDRESS' | translate"
+               [(ngModel)]="address">
+
+        <label for="quotation__address"
+               class="form__item--label">
+          {{'QUOTATION.FORM.ADDRESS' | translate}}
+        </label>
+      </div>
+
+      <!--MESSAGE-->
+      <div class="form__item">
+
+      <textarea id="quotation__message"
+                class="form__item--input"
+                rows="3"
+                [placeholder]="'QUOTATION.FORM.MESSAGE' | translate"
+                [(ngModel)]="message">
+      </textarea>
+
+        <label for="quotation__message"
+               class="form__item--label">
+          {{'QUOTATION.FORM.MESSAGE' | translate}}
+        </label>
+      </div>
+
+      <div class="form__submit">
+        <div class="btn btn--primary" (click)="sendMail()">{{'QUOTATION.FORM.SUBMIT' | translate}}</div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</div>

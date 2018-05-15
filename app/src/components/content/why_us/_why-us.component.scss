@@ -1,0 +1,54 @@
+why-us {
+
+  .why-us {
+
+    color: $COLOR-PRIMARY;
+    background-color: $COLOR-SECONDARY;
+    padding: 2rem 1rem;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      margin-bottom: 4rem;
+      padding: 0;
+    }
+
+    &__options {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      div {
+        min-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      span {
+        flex: 1;
+
+        padding: 0 1rem;
+        margin: 1rem 0;
+        border-left: solid thin;
+
+        font-weight: bolder;
+
+        @media only screen and (max-width: 400px) {
+          min-width: 250px;
+          flex: 0;
+        }
+      }
+
+    }
+
+  }
+}

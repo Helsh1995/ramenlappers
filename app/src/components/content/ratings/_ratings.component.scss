@@ -1,0 +1,46 @@
+ratings {
+
+  .ratings {
+    background-color: $COLOR-SECONDARY;
+    position: relative;
+
+    &__all-ratings {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+
+      @media only screen and (max-width: 600px) {
+
+        width: 90%;
+
+        &__rating {
+
+          &__text {
+            padding: 0 !important;
+            padding-bottom: 5rem !important;
+          }
+        }
+      }
+
+      &__rating {
+
+        color: $COLOR-PRIMARY;
+
+        &__name {
+        }
+
+        &__text {
+          padding: 5rem;
+          padding-top: 0;
+
+          &::before, &::after {
+            content: '"'
+          }
+        }
+      }
+
+    }
+
+  }
+
+}

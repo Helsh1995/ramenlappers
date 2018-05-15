@@ -1,0 +1,5 @@
+export const SCORE = {
+  CLEANED: 1589,
+  PROFESSIONALS: 2,
+  HAPPY_CLIENTS: 307
+};

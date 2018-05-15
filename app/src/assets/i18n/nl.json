@@ -1,0 +1,138 @@
+{
+  "HEADER": {
+    "TITLE": "Ramenlappers",
+    "NAV": {
+      "HOME": "Home",
+      "ABOUT": "Over ons",
+      "FAQ": "FAQ",
+      "CONTACT": "Contact"
+    }
+  },
+  "LANDING": {
+    "PRIMARY": "Geef de ramen glans",
+    "SECONDARY": {
+      "TOP": "betrouwbare ramenwassers",
+      "BOTTOM": "die streven naar perfectie"
+    },
+    "CTA": "Offerte aanvragen"
+  },
+  "CALL_US": "Bel nu gratis: 0468/18 46 22",
+  "WHY_US": {
+    "TITLE": "Waarom voor ons kiezen?",
+    "OPTIONS": "<div><span>Gecertificeerde<br>Ramenwassers</span><span>Milieuvriendelijke<br>Aanpak</span></div><div><span>Streeploze<br>Garantie</span><span>Avond &<br>Weekend</span></div>"
+  },
+  "WHAT_WE_CLEAN": {
+    "TITLE": "Wat maken wij schoon?",
+    "OPTIONS": {
+      "WINDOWS": {
+        "TOP": "Ramen",
+        "BOTTOM": "bij particulieren, bedrijven, horecazaken, ..."
+      },
+      "BLINDS": {
+        "TOP": "Rolluiken",
+        "BOTTOM": "oogverbluffende resultaten d.m.v. stoom"
+      },
+      "FRAMES": {
+        "TOP": "Omlijsting",
+        "BOTTOM": "de lijsten van de ramen zoals u ze nog nooit heeft gezien"
+      },
+      "SOLAR_PANELS": {
+        "TOP": "Zonnepanelen",
+        "BOTTOM": "het rendement verhogen van uw dure investering"
+      }
+    }
+  },
+  "QUOTATION": {
+    "TITLE": "Vraag hier uw gratis offerte aan",
+    "FORM": {
+      "NAME": "Naam",
+      "MAIL": "E-mailadres",
+      "PHONE": "Telefoon",
+      "ADDRESS": "Adres",
+      "MESSAGE": "Bericht",
+      "SUBMIT": "Verstuur"
+    }
+  },
+  "FOOTER": {
+    "BUSINESS": {
+      "HEADER": "Onze zaak",
+      "TEXT": "Ramenlappers.be is een team van gecertificeerde glazenwassers die keer op keer topresultaten neerzetten. De dreef naar perfectie en de glimlach van de klant zijn onze doelen."
+    },
+    "SETTLING": {
+      "HEADER": "Vestiging",
+      "ADDRESS": "Kerkveld 7b<br>9400 Ninove<br>België",
+      "PHONE": "+32 (0) 468/18.46.22",
+      "MAIL": "info@ramenlappers.be"
+    },
+    "OPENING_HOURS": {
+      "HEADER": "Openingsuren",
+      "HOURS": "Ma - Vr: 8u - 20u<br>Za: 9u - 16u<br>Zo: 10u - 12u"
+    }
+  },
+  "ABOUT_US": {
+    "MAIN": {
+      "TITLE": "Over ons",
+      "SUB": "De ramenwassers die u met plezier laat binnenkomen."
+    },
+    "SUB": "Elke ramenwasser van ramenlappers.be heeft een grondige opleiding gekregen. De ruitenwassers worden frequent op de hoogte gebracht van de nieuwste snufjes en technieken uit onze sector. De ramenwassers van ramenlappers.be zijn altijd een stapje voor.<br><br><br>Wij focussen enkel op de streeploze perfectie van de ramen. Er zijn geen andere elementen in of rondom het huis dat de aandacht van de ramenwasser zal trekken. Puur vertrouwen!<br><br><br>Al vanaf de eerste kennismaking zal u een professioneel team zien dat het werk met liefde zal uitvoeren. Enkel het beste is goed genoeg, dat weten onze klanten maar al te goed.<br><br><br>Een verantwoordelijke komt regelmatig het werk van de ramenwasser inspecteren om perfectie te kunnen garanderen. Op deze manier verbeteren alle leden continu. "
+  },
+  "SCORE": {
+    "CLEANED": "Gepoetste ramen",
+    "PROFESSIONALS": "Professionele ramenwassers",
+    "HAPPY_CLIENTS": "Gelukkige klanten"
+  },
+  "FAQ": {
+    "MAIN": {
+      "TITLE": "FAQ",
+      "SUB": "De vragen waar u meteen al aan dacht."
+    },
+    "QUESTIONS": {
+      "TO_PAY": {
+        "QUESTION": "Hoeveel zal ik betalen?",
+        "ANSWER": "<span>Elk huis verschilt van prijs. Onderstaande prijzen zijn prijzen waaraan u zich ongeveer mag verwachten. Om een duidelijk beeld van de prijs te verkrijgen raden wij u aan om contact met ons op te nemen. Op deze manier kan u een afspraak voor een gratis prijsofferte aanvragen.<br><br><ul><li>Gesloten bebouwingen vanaf €29,00</li><li>Halfopen bebouwingen vanaf €39,00<li>Open bebouwingen vanaf €49,00</li></ul></span>"
+      },
+      "WHICH_REGION": {
+        "QUESTION": "In welke regio werken jullie?",
+        "ANSWER": "Voor al onze klanten gaan we heel erg ver. Maar we moeten de lijn wel ergens trekken...<br><br>Ninove, Aalst, Haaltert, Denderleeuw, Ternat, Gooik, Lennik, Edingen, Galmaarden, Geraardsbergen, Sint-Maria-Lierde, Zottegem, Sint-Lievens-Houtem & Erpe-Mere liggen binnen de regio waarin we klanten graag helpen.<br><br>Woont u niet in één van bovenstaande regio's? Maar wil u toch graag kiezen voor ramenlappers.be? Neem dan contact met ons op via telefoon of mail."
+      },
+      "GET_INVOICE": {
+        "QUESTION": "Krijg ik een factuur?",
+        "ANSWER": "Tuurlijk! De factuur komt enkele dagen later via e-mail of post."
+      },
+      "NEED_TO_BE_HOME": {
+        "QUESTION": "Moet ik noodzakelijk thuis zijn?",
+        "ANSWER": "In sommige gevallen is dit mogelijk, maar wij raden sterk aan om de eerste afspraak toch aanwezig te zijn.<br><br>Wanneer u na deze eerste kennismaking de ramen enkel buiten wil laten wassen, is dit wel mogelijk. Heeft u geen gesloten poorten of omheining? Dan is dit geen enkel probleem!"
+      },
+      "WAITING_TIME": {
+        "QUESTION": "Wat is de wachttijd?",
+        "ANSWER": "Minstens 1 week.<br><br>Is het een noodgeval? Bel +32 (0) 468/18.46.22"
+      },
+      "HOW_MANY": {
+        "QUESTION": "Hoe vaak moet ik mijn ramen laten wassen?",
+        "ANSWER": "Buiten laat u de ramen 6-wekelijks wassen, binnen laat u ze 12-wekelijks wassen. Zo heeft u altijd glasheldere ramen. Wanneer u kiest voor een lagere frequentie loopt u risico op een verhoging van het tarief & permanente vervuiling."
+      }
+    }
+  },
+  "EXTRA_INFO": {
+    "MAIN": {
+      "TITLE": "Extra info",
+      "SUB": "De vragen waar u misschien al aan dacht."
+    },
+    "INFO": {
+      "PAYING": {
+        "HEADER": "Betalen",
+        "TEXT": "Wanneer het glaswerk volledig gepoetst is, zal de ramenwasser bij u komen voor de betaling. Betaalt u cash? Dan vragen we u gepast te betalen. Liever met de kaart? Dat kan via de bancontact-app. Geen smartphone? Dan krijgt u de factuur enkele dagen later in de bus."
+      },
+      "CANCEL": {
+        "HEADER": "Annulatie",
+        "TEXT": "Annuleren is voor niemand leuk. Wanneer u beslist om de afspraak te annuleren, is dit volledig kosteloos. Helaas kunnen wij geen rekening houden met de regenval in België."
+      },
+      "GUARANTEE": {
+        "HEADER": "Streeploze garantie",
+        "TEXT": "Perfectie & afwerking zijn prioriteit. Daarom bieden wij een service waarbij u ons mag opbellen wanneer een raam niet goed gepoetst is. Het raam wordt diezelfde dag opnieuw gekuist, zonder smoesjes."
+      }
+    }
+  }
+}
+
+

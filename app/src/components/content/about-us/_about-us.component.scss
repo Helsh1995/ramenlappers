@@ -1,0 +1,65 @@
+about-us {
+
+  .about-us {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    color: $COLOR-WHITE;
+    background-color: $COLOR-PRIMARY;
+
+    > * {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    @media only screen and (max-width: 500px) {
+
+      > * {
+        min-width: 200px;
+      }
+
+      &__main {
+
+        &__title {
+          padding-left: 2rem;
+        }
+
+        &__sub {
+          padding-left: 2rem !important;
+        }
+
+      }
+
+      &__sub {
+        padding: 4rem 2rem !important;
+      }
+
+    }
+
+    &__main {
+
+      &__title {
+        color: $COLOR-WHITE;
+        text-align: left;
+        padding-right: 0;
+      }
+
+      &__sub {
+        color: $COLOR-SECONDARY;
+
+        padding: 0 4rem;
+        font-size: 1.3rem;
+      }
+
+    }
+
+    &__sub {
+
+      padding: 4rem;
+      letter-spacing: 1.5px;
+    }
+
+  }
+
+}

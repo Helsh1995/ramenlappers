@@ -1,0 +1,69 @@
+score {
+  .score {
+
+    color: $COLOR-PRIMARY;
+
+    height: 70%;
+
+    position: relative;
+
+    @media screen and (max-width: 750px) {
+
+      //height: 80%;
+
+      &__info {
+
+        > * {
+          width: 100%;
+          min-width: 400px !important;
+        }
+      }
+
+      &__background {
+        height: 50% !important;
+      }
+
+    }
+
+    &__info {
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      text-align: center;
+
+      position: absolute;
+      bottom: 5rem;
+      width: 100%;
+
+      > * {
+        flex: 1;
+        min-width: 250px;
+      }
+
+    }
+
+    &__background {
+
+      height: 80%;
+      width: 100%;
+
+      position: absolute;
+      top: -90px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &__amount {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    &__text {
+      font-size: 1.5rem;
+    }
+
+  }
+}
