@@ -14,9 +14,10 @@ npm i
 npm run build
 
 cd $ROOT
-cp .htaccess $APP/dist
 rm -rf $FRONT/*
 cp -rf $APP/dist/* $FRONT
+cp .htaccess $FRONT
+
 
 
 
