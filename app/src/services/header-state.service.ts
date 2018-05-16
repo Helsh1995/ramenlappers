@@ -11,7 +11,9 @@ export class HeaderStateService {
   public state: BehaviorSubject<any>;
 
   constructor(private appRouter: AppRouterService) {
+
     this.state = new BehaviorSubject<any>(this.getStateFromStorage());
+
     this.changeHeaderState(this.state.getValue());
   }
 
@@ -30,7 +32,10 @@ export class HeaderStateService {
     let headerState = PAGES.HOME;
 
     try {
-      headerState = JSON.parse(sessionStorage.getItem(HEADER_STATE_STORAGE_KEY));
+      const parsedHeaderState = JSON.parse(sessionStorage.getItem(HEADER_STATE_STORAGE_KEY));
+      if (parsedHeaderState) {
+        headerState = parsedHeaderState;
+      }
     } catch (ex) {
       console.log(ex);
     }
