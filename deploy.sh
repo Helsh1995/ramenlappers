@@ -2,10 +2,11 @@
 
 clear
 
-source ./deploy_dirs.sh
+. ./deploy_dirs.sh
 
 cd $ROOT
-#git pull
+git fetch origin master
+git reset --hard FETCH_HEAD
 
 cd $APP
 
@@ -14,8 +15,8 @@ npm run build
 
 cd $ROOT
 cp .htaccess $APP/dist
-#rm -rf $FRONT/*
-#cp -rf $APP/dist/* $FRONT
+rm -rf $FRONT/*
+cp -rf $APP/dist/* $FRONT
 
 
 

@@ -1,3 +1,5 @@
 .idea
 server/node_modules
 server/dist
+server/src/config/mail.config.ts
+./deploy_dirs.sh
