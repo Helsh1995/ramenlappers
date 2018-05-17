@@ -17,7 +17,7 @@ export class RoutesManager {
         const router = Router();
 
         router.get('/', ((req, res, next) => {
-            res.send('');
+            res.send('Welcome to the backend');
         }));
 
         this._app.use('/', router);
