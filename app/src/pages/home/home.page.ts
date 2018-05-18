@@ -20,16 +20,16 @@ export class HomePage {
   }
 
   private _scrollToQuotation(isContact: boolean): void {
+
     if (isContact) {
 
-      const quotation = document.getElementsByClassName('quotation');
+      setTimeout(() => {
+        const quotation = document.getElementsByClassName('quotation');
 
-      if (quotation[0]) {
-        setTimeout(() => {
-          this.scrollService.scrollTo(<HTMLElement> quotation[0], 1500, -75);
-        }, 500);
-      }
-
+        if (quotation[0]) {
+          this.scrollService.scrollTo(<HTMLElement> quotation[0], 850, -75);
+        }
+      }, 500);
 
     }
   }

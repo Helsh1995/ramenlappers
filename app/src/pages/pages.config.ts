@@ -9,16 +9,16 @@ export const PAGES = {
     value: 'HEADER.NAV.HOME',
     active: true
   },
-  FAQ: {
-    component: FaqPage,
-    link: 'faq',
-    value: 'HEADER.NAV.FAQ',
-    active: false
-  },
   ABOUT_US: {
     component: AboutUsPage,
     link: 'about-us',
     value: 'HEADER.NAV.ABOUT',
+    active: false
+  },
+  FAQ: {
+    component: FaqPage,
+    link: 'faq',
+    value: 'HEADER.NAV.FAQ',
     active: false
   },
   CONTACT: {
