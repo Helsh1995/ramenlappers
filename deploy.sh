@@ -23,6 +23,6 @@ npm run build
 
 cd $SERVER
 npm i
-npm run start
+#npm run start
 
 pm2 start dist/server.js
