@@ -17,6 +17,7 @@ import {TranslateModule} from '@ngx-translate/core';
 import {SWIPER_CONFIG, SwiperModule} from 'ngx-swiper-wrapper';
 import {RATINGS_SWIPING} from '../configs/ratings_swiping.config';
 import {FormsModule} from '@angular/forms';
+import {LoadersCssModule} from 'angular2-loaders-css';
 
 const components = [
   HeaderComponent,
@@ -34,7 +35,7 @@ const components = [
   ExtraInfoComponent
 ];
 
-const modules = [CommonModule, FormsModule, TranslateModule, SwiperModule];
+const modules = [CommonModule, FormsModule, TranslateModule, SwiperModule, LoadersCssModule];
 
 @NgModule({
   imports: [

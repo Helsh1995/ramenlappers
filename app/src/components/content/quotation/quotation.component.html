@@ -19,11 +19,13 @@
         <input id="quotation__name"
                type="text"
                class="form__item--input"
+               [ngClass]="{'form__item--error': isError('name')}"
                [placeholder]="'QUOTATION.FORM.NAME' | translate"
                [(ngModel)]="name">
 
         <label for="quotation__name"
-               class="form__item--label">
+               class="form__item--label"
+               [ngClass]="{'form__item--error': isError('name')}">
           {{'QUOTATION.FORM.NAME' | translate}}
         </label>
       </div>
@@ -34,11 +36,13 @@
         <input id="quotation__mail"
                type="email"
                class="form__item--input"
+               [ngClass]="{'form__item--error': isError('mail')}"
                [placeholder]="'QUOTATION.FORM.MAIL' | translate"
                [(ngModel)]="mail">
 
         <label for="quotation__mail"
-               class="form__item--label">
+               class="form__item--label"
+               [ngClass]="{'form__item--error': isError('mail')}">
           {{'QUOTATION.FORM.MAIL' | translate}}
         </label>
       </div>
@@ -90,9 +94,23 @@
       </div>
 
       <div class="form__submit">
-        <div class="btn btn--primary" (click)="sendMail()">{{'QUOTATION.FORM.SUBMIT' | translate}}</div>
+        <div class="btn btn--primary"
+             (click)="sendMail()">
+          <span *ngIf="!isSending">
+            {{'QUOTATION.FORM.SUBMIT' | translate}}
+          </span>
+
+          <loaders-css *ngIf="isSending"
+                       [loader]="'ball-pulse'"
+                       [loaderClass]="'btn btn--loading'">
+          </loaders-css>
+
+        </div>
       </div>
 
+      <div class="form__item--error quotation__container__form__error">
+        {{getErrorToDisplay() | translate}}
+      </div>
 
     </div>
 

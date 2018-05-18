@@ -26,11 +26,9 @@ export class MailService {
       };
 
       this.http.post(environment.BASE_URL + API_ENDPOINTS.SEND_MAIL, body)
-        .subscribe(result => {
-          console.log(result);
+        .subscribe((result) => {
           resolve();
-        }, error => {
-          console.log(error);
+        }, (error) => {
           reject();
         });
 

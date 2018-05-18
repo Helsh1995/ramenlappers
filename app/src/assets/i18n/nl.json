@@ -45,12 +45,17 @@
   "QUOTATION": {
     "TITLE": "Vraag hier uw gratis offerte aan",
     "FORM": {
-      "NAME": "Naam",
-      "MAIL": "E-mailadres",
+      "NAME": "Naam *",
+      "MAIL": "E-mailadres *",
       "PHONE": "Telefoon",
       "ADDRESS": "Adres",
       "MESSAGE": "Bericht",
-      "SUBMIT": "Verstuur"
+      "SUBMIT": "Verstuur",
+      "ERROR": {
+        "REQUIRED": "Vul alle verplichte velden in",
+        "MAIL": "Geef een geldig e-mailadres op",
+        "MAIL_SEND": "Er kon geen mail verzonden worden, probeer later nog eens."
+      }
     }
   },
   "FOOTER": {

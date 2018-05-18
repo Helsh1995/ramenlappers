@@ -8,6 +8,9 @@ $COLOR-WHITE: #fff;
 $COLOR-BLACK: #000;
 $COLOR-PRIMARY: #0f93f3;
 $COLOR-SECONDARY: #deff4f;
+$COLOR-DANGER: #E21C21;
 
 @import "style/animations";
 @import "components/components";
+@import "../node_modules/loaders.css/src/loaders";
+

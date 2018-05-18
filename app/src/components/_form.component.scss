@@ -13,21 +13,29 @@
     width: 100%;
 
     position: relative;
-
     color: $COLOR-PRIMARY;
 
     &--label {
       position: absolute;
       top: 0;
+      left: 0;
       transition: all .7s;
     }
 
     &--input {
       width: 90%;
-      color: $COLOR-PRIMARY;
 
       &::-webkit-input-placeholder {
         color: $COLOR-PRIMARY;
+      }
+
+    }
+
+    &--error {
+      color: $COLOR-DANGER;
+      border-bottom-color: $COLOR-DANGER;
+      &::-webkit-input-placeholder {
+        color: $COLOR-DANGER;
       }
     }
 
@@ -41,7 +49,7 @@
 
   &__submit {
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
 
 }

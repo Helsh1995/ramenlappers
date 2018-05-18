@@ -10,6 +10,8 @@ cd $ROOT
 git fetch origin master
 git reset --hard FETCH_HEAD
 
+mkdir $SERVER/src/config
+
 cp mail.config.ts $SERVER/src/config/
 
 cd $APP
