@@ -13,7 +13,6 @@ export class App {
 
   public init(port: any = 3000): void {
 
-    this.app.use(__dirname + '../app/dist');
     this.app.use(bodyParser.urlencoded({extended: false}));
     this.app.use(bodyParser.json());
 
