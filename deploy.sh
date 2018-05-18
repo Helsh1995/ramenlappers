@@ -13,10 +13,10 @@ cd $APP
 npm i
 npm run build
 
-cd $ROOT
-rm -rf $FRONT/*
-cp -rf $APP/dist/* $FRONT
-cp .htaccess $FRONT
+#cd $ROOT
+#rm -rf $FRONT/*
+#cp -rf $APP/dist/* $FRONT
+#cp .htaccess $FRONT
 
 
 
@@ -25,3 +25,4 @@ cd $SERVER
 npm i
 npm run start
 
+pm2 start dist/server.js
