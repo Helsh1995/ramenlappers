@@ -16,11 +16,11 @@ export class RoutesManager {
 
         const router = Router();
 
-        // router.get('/', ((req, res, next) => {
-        //     res.send('Welcome to the backend');
-        // }));
-        //
-        // this._app.use('/', router);
+        router.get('/', ((req, res, next) => {
+            res.send('Welcome to the backend');
+        }));
+
+        this._app.use('/', router);
         this._app.use('/api/v1/mail', new MailRoute().init());
     }
 }
