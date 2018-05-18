@@ -8,6 +8,8 @@ cd $ROOT
 git fetch origin master
 git reset --hard FETCH_HEAD
 
+cp mail.config.ts $SERVER/config/
+
 cd $APP
 
 npm i
@@ -17,8 +19,6 @@ npm run build
 #rm -rf $FRONT/*
 #cp -rf $APP/dist/* $FRONT
 #cp .htaccess $FRONT
-
-
 
 
 cd $SERVER
